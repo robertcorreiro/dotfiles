@@ -1,13 +1,13 @@
 #!/bin/bash
 ############################
-# .make.sh
+# .install.sh
 # This scripts creates symlinks from the home directory to all dotfiles in ~/dotfiles
 ############################
 
 ############### Variables
 
 dir=~/dotfiles                 # dotfiles directory
-olddir=~/dotfiles.old          # dotfiles backup directory
+olddir=~/dotfiles_old          # dotfiles backup directory
 files="bashrc bash_profile bash_history vimrc gemrc "     # list of files/folders to symlink
 
 ###############
@@ -27,5 +27,5 @@ for file in $files; do
     echo "Moving existing dotfiles from ~ to $olddir"
     mv ~/.$file ~/dotfiles_old/
     echo "Creating symlink to $file in home directory."
-    ln -s $dir/$file ~/.file
+    ln -s $dir/$file ~/.$file
 done

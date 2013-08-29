@@ -1,10 +1,10 @@
 " Use Pathogen:
-execute pathogen#infect()
+"execute pathogen#infect()
 
 syntax on
 filetype plugin indent on
 set background=dark
-colorscheme solarized
+"colorscheme solarized
 
 set smartindent
 set tabstop=4

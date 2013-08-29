@@ -1,500 +1,500 @@
-vim hw1.py 
-python submit_hw1.py 
-vim hw1.py 
-python submit_hw1.py 
 ls
-vim plotting.py 
-cd ~/Projects/Ruby/
+cd rcblog/
 ls
-cd pickaxe/
+vim index.html 
 ls
-vim book.rb
-vim book.rb
-ruby book.rb 
-vim book.rb
-ruby book.rb 
-ruby
-irb
-cd ~/Classes/matrix/
-vim politics_lab.py 
-vim politics_lab.py 
-vim politics_lab.py 
-vim politics_lab.py 
-vim politics_lab.py 
-wm
-wime
+cd _posts/
 ls
-cd ~/Projects/Python/
+vim 2013-08-05-welcome-to-jekyll.markdown 
 ls
-vim method.py
-python method.py 
-python method.py 
-python method.py 
-vim method.py
-python method.py 
-vim method.py
-python
-irb
+cp 2013-08-05-welcome-to-jekyll.markdown  ../../robertcorreiro.com/_posts/
+..
+ls
+cd _layouts/
+ls
+vim post.html 
+vim post.html 
+ls
+..
+ls
+cd css/
+ls
+cp syntax.css ../../robertcorreiro.com/css/
+ls
+..
+jekyll serve
+ls
+..
+ls
+jekyll new tester
+ls
+cd tester/
+ls
+jekyll serve
+xflux -z 33155
+ls
+vim home.html 
+l
+ls
+..
+ls
+cd _includes/
+ls
+vim header.html 
+vim header.html 
+vim footer.html 
+ls
+vim nav-main.html 
+ls
+vim nav-css.html 
+ls
+..
+ls
+cd less/
+ls
+vim bootstrap.less 
+vim navbar.less 
+..
+ls
+..
+ls
+cd robertcorreiro.com/
+ls
+jekyll serve
+ls
+git init
+ls -las
+vim .gitignore
+ls
+git status
+vim .project 
+git add .
+git commit -m "First commit"
+ls
+ls
+mkdir _includes
+cd _includes/
+vim header.html
+vim header.html
+..
+jekyll serve -w
+ls
+ls
+vim _config.yml
+jekyll serve -w
+ls
+mkdir _layouts
+mv index.html _layouts/
+cd _layouts/
+ls
+mv index.html default.html
+ls
+..
+ls
+ls
+vim index.html
+jekyll serve -w
+jekyll serve -w
+jekyll serve -w
+jekyll serve -w
+jekyll serve -w
+jekyll serve -w
+jekyll serve -w
+xflux -z 33155
 homewifi
-python submit_politics_lab.py 
-python submit_politics_lab.py 
-python submit_politics_lab.py 
-python submit_politics_lab.py 
-xflux -z 33155
-ls
-cd pdfs/
-ls
-evince politics_lab.pdf &
-..
-python
-python submit_politics_lab.py 
-python
-irb
+homewifi
 ls
 ..
 ls
-cd startup_eng/
+mv about.html about/
+cd about/
 ls
-cd pdfs/
-ls
-evince lecture5-market-wireframing-design.pdf &
-mv ~/Downloads/programming-ruby-1-9-2-0_p1_0.pdf ~/Documents/Library/Programming/
-evince ~/Documents/Library/Programming/programming-ruby-1-9-2-0_p1_0.pdf &
-irb
-irb
-ls
-python solverC.py data/ks_4_0 
-python2 solverC.py data/ks_4_0 
-g++ -o Solver Solver.cpp
-g++ -o Solver Solver.cpp
-g++ -o Solver Solver.cpp
-g++ -o Solver Solver.cpp -std
-man g++
-g++ -o Solver Solver.cpp -std=C++0x
-g++ -o Solver Solver.cpp -std=gnu++0x
-g++ -o Solver Solver.cpp -std=c++0x
-g++ -o Solver Solver.cpp -std=c++0x
-g++ -o Solver Solver.cpp -std=c++0x
-./Solver hi to you
-g++ -o Solver Solver.cpp -std=c++0x
-g++ -o Solver Solver.cpp -std=c++0x
-g++ -o Solver Solver.cpp -std=c++0x
-g++ -o Solver Solver.cpp -std=c++0x
-g++ -o Solver Solver.cpp -std=c++0x
-./Solver hi -file=jello mo
-g++ -o Solver Solver.cpp -std=c++0x
-./Solver hi -file=jello mo
-g++ -o Solver Solver.cpp -std=c++0x
-g++ -o Solver Solver.cpp -std=c++0x
-./Solver hi -file=jello mo
-g++ -o Solver Solver.cpp -std=c++0x
-g++ -o Solver Solver.cpp -std=c++0x
-g++ -o Solver Solver.cpp -std=c++0x
-g++ -o Solver Solver.cpp -std=c++0x
-g++ -o Solver Solver.cpp -std=c++0x
-./Solver hi -file=jello mo
-./Solver hi
-./Solver hi to you
-g++ -o Solver Solver.cpp -std=c++0x
-g++ -o Solver Solver.cpp -std=c++0x
-./Solver hi to you
-./Solver hi -file=jello mo
-g++ -o Solver Solver.cpp -std=c++0x
-./Solver hi -file=jello mo
-./Solver hi to you
-g++ -o Solver Solver.cpp -std=c++0x
-./Solver hi -file=jello mo
-./Solver hi to you
-g++ -o Solver Solver.cpp -std=c++0x
-./Solver hi -file=jello mo
-./Solver hi to you
-g++ -o Solver Solver.cpp -std=c++0x
-./Solver hi to you
-g++ -o Solver Solver.cpp -std=c++0x
-./Solver hi -file=jello mo
-./Solver hi to you
-g++ -o Solver Solver.cpp -std=c++0x
-g++ -o Solver Solver.cpp -std=c++0x
-g++ -o Solver Solver.cpp -std=c++0x
-./Solver hi -file=jello mo
-./Solver hi to you
-g++ -o Solver Solver.cpp -std=c++0x
-./Solver hi -file=jello mo
-./Solver hi to you
-g++ -o Solver Solver.cpp -std=c++0x
-./Solver hi -file=jello mo
-g++ -o Solver Solver.cpp -std=c++0x
-g++ -o Solver Solver.cpp -std=c++0x
-ls
-cd data/
-ls
-head ks_4_0 
-cp ks_4_0 ..
+mv about.html index.html
 ..
 ls
-./Solver -file=ks_4_0
-cat ks_4_0 
-g++ -o Solver Solver.cpp -std=c++0x
-./Solver -file=ks_4_0
-g++ -o Solver Solver.cpp -std=c++0x
-./Solver -file=ks_4_0
-cat ks_4_0 
+mv projects.html projects/
+cd projects/
+ls
+mv projects.html index.html
+..
+ls
+cd _includes/
+ls
+vim nav-main.html 
 ls
 ..
 ls
+cd about/
+ls
+vim index.html 
+ls
 ..
 ls
-cd startup_eng/
 ls
-cd pdfs/
 ls
-mv ~/Downloads/lecture6-html-css-js.pdf .
+vim index.html 
 ls
-evince lecture6-html-css-js.pdf &
-ps
-top
-ps
-ps
-xflux -z 33155
-kill 7654
+cd resume/
 ls
-ps
-ps
+vim index.html 
+..
 ls
-vim Solver.java 
+cp _layouts/default.html resume/index.html 
+cd resume/
+ls
+vim index.html 
+ls
+..
+ls
+cd projects/
+ls
+vim index.html 
+ls
+..
+ls
+ls
+cd _includes/
+ls
+ls
+..
+ls
+cat blog.html 
+rm blog.html 
+ls
+vim index.html 
+mkdir _posts
+cd _posts/
+ls
+vim 2013-08-05-refactor-site-for-jekyll.markdown
+ls
+ls
+ls
+..
+ls
+cd _layouts/
+ls
+vim post.html
+ls
+..
+ls
+cd css/
+ls
+ls
+..
+ls
+vim _includes/header.html 
+ls
+cd css/
+ls
+vim syntax.css 
+vim main.css 
+vim ../_includes/nav-main.html 
+..
+git status
+git add .
+git add -A
+git status
+git log
+git commit -m "Refactor site to use Jekyll"
 ps
-otp
-top
-man top
-man ps
 ps -e
-kill 25410
-irb
+ps -e | grep xflux
+kill 1669
 ls
-vim update.txt 
-vim quiz.txt
-irb
+cd projects/
+ls
+vim index.html 
+ls
+ls
+vim index.html 
+ls
+..
+ls
+cd css/
+ls
+vim main.css 
+..
+ls
+jekyll serve -w
+homewifi
+homewifi
+ls
+..
+ls
+vim index.html 
+;s
+ls
+..
+ls
+cd robertcorreiro.com/
+ls
+vim _layouts/default.html
+vim index.html 
+ifconfig
+homewifi
+ls
+ifconfig
+man netcfg
+netcfg
+sudo netcfg
+sudo wifi-menu
+sudo wifi-menu
+homewifi
+sudo wifi-menu
+sudo wifi-menu
+ls
+cd Development/
+ls
+cd robertcorreiro.com/
+ls
+git status
+git log
+cd css/
+ls
+vim main.css 
+rvm 
+rvm
+ruby -v
+ls
+autotest
+vim Gemfile
+bundle install --without production
+gem install capybara -v '2.1.0'
+ruby -v
+ls
+cd config
+ls
+vim routes.rb 
+rake routes
+vim app/controllers/movies_controller.rb 
+touch app/views/movies/search_tmdb.html.haml
+xflux -z 33155
+..
+cd myrottenpotatoes/
+vim .rspec 
+rake routes
+bundle exec rake routes
+/bin/bash --login
+ls
+ruby -v
+vim spec/controllers/movie_controller_spec.rb 
+ls
+cd app/views/movies/index.html.haml 
+vim app/views/movies/index.html.haml 
+ls
+vim spec/controllers/movie_controller_spec.rb 
+ruby -v
+bundle install
+autotest
+autotest
+t help
+t matrix help
+t matrix -help
+t matrix --help
+t matrix
+t whois robertcorreiro
+t timeline
+t leaders
+t leaders help
+t timeline -n 3
+vim .trc 
+t timeline help
+t timeline
+t help timeline
+t timeline -l
+t timeline -l -C
+t timeline -C
+t timeline -C -n 5
+t help
+t trends
+t help stream
+t stream trends
+t status
+t ruler
+t help matrix
+t matrix
+ls
+cd Development/
+ls
+ls ~/Projects/
+ls
+rails new dashboard
+ls
+svim /etc/bash.bashrc 
+ls
+cd dashboard/
+curl -u http://miami.craigslist.org/search/cas/?query=w4m
+curl -l http://miami.craigslist.org/search/cas/?query=w4m
+while true do; curl -l http://miami.craigslist.org/search/cas/?query=w4m
+curl -l http://miami.craigslist.org/search/cas/?query=w4m > cl.txt
+ls
+while true do; curl -l http://miami.craigslist.org/search/cas/?query=w4m | diff cl.txt; sleep 15;  end; ;
+xflux -z 33155
+python
+python
+ls
+cd od
+cd pdfs/
+l
+ls
+evince hw3.pdf &
+python
+python submit_hw3.py 
+l
+ls
+unzip ~/Downloads/mat.zip 
+mv mat.pdf pdfs/
+python submit_hw3.py 
+python
+python submit_hw3.py 
+ps -e
+kill 29107
+python submit_hw3.py 
+python submit_hw3.py 
+python submit_hw3.py 
+python submit_hw3.py 
+python submit_hw3.py 
+python submit_hw3.py 
+python submit_hw3.py 
+python submit_hw3.py 
+python submit_hw3.py 
+python submit_hw3.py 
+xflux -z 33155
+..
+..
+cat .rspec 
+ls
 cd Classes/matrix/
 ls
-vim politics_lab.py 
-..
+python
 ls
-cd discrete_opt/
+unzip ~/Downloads/hw3.zip 
 ls
-cd knapsack/
+mv submit_hw2.py submits/
+mkdir labs
+mv python_lab.py inverse_index_lab.py politics_lab.py labs/
 ls
-evince handout.pdf &
-ls data/
-head data/ks_100_0
-vim solver.py 
+mv hw3.pdf pdfs/
 ls
-vim solverJava.py 
-vim solverC.py
-vim Solver.java 
-vim Solver.cpp
-vim Solver.cpp
-ps
-xflux -z 33155
-which mplayer
-aurs mplayer
-pac mplayer
-mplayer
-mplayer ~/Downloads/codeschool_849.mp4 &
-mplayer ~/Downloads/codeschool_849.mp4
+mkdir hws
+mv hw0.py hw1.py hw2.py hws/
 ls
-..
-ls
-..
-ls
-cd startup_eng/
-ls
-cd bitstarter/
-ls
-ls -las
-vim web.js 
-node web.js 
-node web.js 
-node web.js &
-ls
-vim index.html 
-git status
-git add web.js 
-git status
-git add index.html 
-git status
-git commit -m "Adds collapsable navabr in index.html. Opens port 8080 in web.js"
-git commit --amend -m "Adds responsive navbar in index.html. Opens port 8080 in web.js"
-git log
-git commit --amend -m "Add responsive navbar in index.html. Open port 8080 in web.js"
-git push origin master
-ps
-kill 10159
-kill 22200
-ps
-kill 22200
-ps
-kill -9 22200
-ps
-vim index.html 
-..
-ls
-..
-ls
-svim /etc/bash.bashrc
-bash
-svim /etc/bash.bashrc
-bash
-man shopt
-help shopt
-man histappend
-help histappend
-info histappend
-svim /etc/bash.bashrc
-irb
-ls
-irb
-man irb
-irb -I .
-irb
-irb -I .
-irb -I .
-ls
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-cd 
-ls
-ls -las
-cd .vim
-ls
-cd colors/
-ls
-vim solarized.vim 
-ls
-ls -la
-..
-..
-cd .vim
-vim colors/solarized.vim 
-which vimrc
-find vimrc ~
-vim /etc/vimrc 
-ls
-vim /usr/share/vim/
-vim /usr/share/vim/
-which pyflakes
-aurs pyflakes
-aurs vim plugin
-aurs syntastic
-aurs -I syntastic
-aurs -i syntastic
-man aur
-man pacman
-aur -is syntastic
-aurs -i syntastic
-aurs syntastic
-..
-ls
-ls -las
-vim .viminfo 
-vim .vimrc
-mkdir -p ~/.vim/autoload ~/.vim/bundle; curl -Sso ~/.vim/autoload/pathogen.vim     https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
-cd .vim
-ls
-cd bundle/
-ls
-..
-cd autoload/
-ls
-vim ~/.vimrc 
-ls
-..
-ls
-mkdir -p after/ftplugin
-cd after/ftplugin/
-ls
-ls
-vim html.vim
-vim python.vim
-cat ht
-cat html.vim 
-vim ruby.vim
-irb
-irb -I .
-..
-cd ~/Classes/saas/
-ls
-cd hw1/
-ls
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-ps
+vim hw3.py 
 ps -e
-kill 19476
-irb -I .
-irb -I .
-aurs epub
-aurs coolreader
-aur coolreader
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-echo $PWD
-echo $PWD/#$HOME
-echo $PWD/#$HOME/~
-ls
-cd Classes/
-echo $PWD/#$HOME/~
+ps -e | grep xflux
+kill 10524
+..
 ls
 cd saas/
 ls
-mkdir hw1
-cd hw1/
+cd myrottenpotatoes/
 ls
-vim fun_with_strings.rb
+git log
+git status
 ls
-vim rps.rb
-vim anagrams.rb
+cd spec/
 ls
-vim anagrams.rb
-vim sweets.rb
-vim with_history.rb
-vim .bashrc
-anyu
-anyu
-irb
-pacu
-homewifi
-homewifi
-homewifi
-homewifi
-homewifi
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
-irb -I .
+cd controllers/
+ls
+vim movie_controller_spec.rb 
+..
+..
+ruby -v
+autotest
+rspec spec/controllers/movie_controller_spec.rb 
+vim Gemfile
+rspec spec/controllers/movie_controller_spec.rb 
+vim spec/controllers/movie_controller_spec.rb 
+bundle exec rake routes
+ls
+vim app/controllers/movies_controller.rb 
+vim app/views/movies/search_tmdb.html.haml 
+vim spec/controllers/movie_controller_spec.rb 
+rspec
+vim app/controllers/movies_controller.rb 
+rspec
 ping www.google.com
+cd
+cd ~/Downloads/
+ls
+unzip Tutorial\ 0.3.8.7z 
+aurs 7z
+pac p7zip
+man 7z
+7z x Tutorial\ 0.3.8.7z 
+ls | grep Tut
+cd Tutorial\ 0.3.8
+ls
+cd ~/Projects/
+ls
+ls RashidStone/
+mkdir Graphics
+man mv
+ls
+cd Graphics/
+ls
+mkdir Tutorial
+mv ~/Downloads/Tutorial\ 0.3.8/* Tutorial/
+cd Tutorial/
+ls
+aurs premake
+pac premake
+ls
+cd glsdk/
+ls
+premake make config=debug
+cd Projects/Graphics/Tutorial/
+ls
+cd glsdk/
+ls
+premake
+aurs premake
+which premake
+find premake
+sudo pacman -I premake
+premake4
+premake4 make config=debug
+premake4 gmake
+ls
+ls ~
+ls
+make config=debug
+ls
+make config=release
+..
+ls
+premake gmake
+premake4 gmake
+ls
+make config=debug
+make config=release
+man curl
 ping www.google.com
-ping www.google.com
 homewifi
-homewifi
-homewifi
-homewifi
-homewifi
-ping www.google.com
-ping www.google.com
-which anki
-ls -las
-cd Anki/
+xflux -z 33155
+kill 22979
+aurs matrix
+node --version
+npm install -g karma
+sudo npm install -g karma
 ls
-cd User\ 1/
+cd Projects/
 ls
-cd collection.media
+mkdir AngularJS
+cd AngularJS/
 ls
-cd ~/Classes/
+git clone git://github.com/angular/angular-phonecat.git
+cd angular-phonecat/
 ls
-cd saas/
+cd app/
 ls
-cd hw1/
-ls
-vim currency.rb
-ls
-echo test1 >> test1.txt
-ls
-cat test1.txt 
-echo hi >> test1.txt
-cat test1.txt 
-echo you > test1.txt
-cat test1.txt 
-ls
-rm test1.txt 
-cat fun_with_strings.rb >> currency.rb 
-vim currency.rb 
-vim cartesian_product.rb
-man netcfg
-homewifi
-homewifi
-homewifi
-homewifi
-wime
-wime
-homewifi
-homewifi
-homewifi
-homewifi
-homewifi
-homewifi
-wime
-wime
-cd .gem/ruby/2.0.0/bin/
-ls
-pwd
-echo $PATH
-aurs rubygems
-aurs gem
-aurs gem | grep ruby
-aurs rvm
-\curl -L https://get.rvm.io | bash
-which gem
-rvm get stable
-which rvm
-svim /etc/gemrc 
-export rvm_ignore_gemrc_issues=1
-source /home/robert/.rvm/scripts/rvm 
-which rvm
-rvm get stable
-rvm requirements
-rvm
-gem update
-echo $PATH
-vim .bashrc 
+..
+git checkout -f step-0
+git branch
+man git checkout
+./scripts/web-server.js 
+node ./scripts/web-server.js 
+aurs ntfs
+pac ntfs-3g
+sudo rm /var/lib/pacman/db.lck 
+pac ntfs-3g
