@@ -58,7 +58,7 @@ fi
 
 # Show current git branch in prompt:
 parse_git_branch() {
-    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1) /'
 }
 
 # ANSI color codes
@@ -85,7 +85,7 @@ BWHT="\[\033[47m\]" # background white
 
 if [ "$color_prompt" = yes ]; then
     #PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-    PS1="${debian_chroot:+($debian_chroot)}$HC$FGRN\u $HC$FBLE\w $HC$FRED$(parse_git_branch) $HC$FGRN\$ $RS"
+    PS1="${debian_chroot:+($debian_chroot)}$HC$FGRN\u $HC$FBLE\w $HC$FRED\$(parse_git_branch)$HC$FGRN\$ $RS"
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
