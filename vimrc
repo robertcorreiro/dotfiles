@@ -1,6 +1,6 @@
 syntax on
 filetype plugin indent on
-colorscheme railscasts
+colorscheme Tomorrow-Night-Eighties
 
 set smartindent
 set tabstop=4
