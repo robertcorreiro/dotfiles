@@ -25,7 +25,7 @@ shopt -s checkwinsize
 
 # If set, the pattern "**" used in a pathname expansion context will
 # match all files and zero or more directories and subdirectories.
-#shopt -s globstar
+# shopt -s globstar
 
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
@@ -85,7 +85,10 @@ BWHT="\[\033[47m\]" # background white
 
 if [ "$color_prompt" = yes ]; then
     #PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-    PS1="${debian_chroot:+($debian_chroot)}$HC$FGRN\u $HC$FBLE\w $HC$FRED\$(parse_git_branch)$HC$FGRN\$ $RS"
+    # For git syntax highlighting:
+    #PS1="${debian_chroot:+($debian_chroot)}$HC$FGRN\u $HC$FBLE\w $HC$FRED\$(parse_git_branch)$HC$FGRN\$ $RS"
+    PS1="${debian_chroot:+($debian_chroot)}$HC$FMAG\T $HC$FCYN[ $HC$FGRN\u$HC$FCYN: $HC$FBLE\W $HC$FCYN] $HC$FRED\$(parse_git_branch)$HC$FGRN\$ $RS"
+#    PS1="${debian_chroot:+($debian_chroot)}$HC$FGRN\u $HC$FBLE\w $HC$FGRN\$ $RS"
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
