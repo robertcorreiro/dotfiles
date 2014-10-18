@@ -31,5 +31,4 @@ fi
 # safety features
 alias cp='cp -i'
 alias mv='mv -i'
-alias rm='rm -I'  # 'rm -i' prompts for each file
 alias ln='ln -i'
