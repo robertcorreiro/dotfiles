@@ -9,3 +9,13 @@ if [ -n "$BASH_VERSION" ]; then
     . "$HOME/.bashrc"
     fi
 fi
+
+# Appending $HOME/bin to PATH for bash scripts
+export PATH="$PATH:$HOME/bin"
+
+# Set architeceture flags
+export ARCHFLAGS="-arch x86_64"
+# Ensure user-installed binaries take precedence
+export PATH=/usr/local/bin:$PATH
+# Load .bashrc if it exists
+test -f ~/.bashrc && source ~/.bashrc
