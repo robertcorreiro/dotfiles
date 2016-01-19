@@ -1,0 +1,14 @@
+{
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"theme": "Material-Theme.sublime-theme",
+	"translate_tabs_to_spaces": true,
+    "overlay_scroll_bars"          : "enabled",
+    "line_padding_top"             : 2,
+    "line_padding_bottom"          : 2,
+    "always_show_minimap_viewport" : true,
+    "bold_folder_labels"           : true,
+    "indent_guide_options"         : [ "draw_normal", "draw_active" ],   // Highlight active indent
+    "font_face": "Inconsolata",
+    "font_size": 14,
+    "font_options"                 : [ "gray_antialias" ],                      // On retina Mac
+}
