@@ -14,7 +14,8 @@ alias l='ls -CF'
 
 # modified commands
 alias ..='cd ..'
-alias ping='ping -c 3'
+alias ins="ssh ins-sw-bld19"
+
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
