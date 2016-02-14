@@ -8,6 +8,21 @@ case $- in
       *) return;;
 esac
 
+
+# PATH Configuration
+
+# Appending $HOME/bin to PATH for bash scripts
+PATH=$PATH:$HOME/bin
+
+# virtualenvwrapper config
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/dev
+source /usr/local/bin/virtualenvwrapper.sh
+
+# Ensure user-installed binaries take precedence
+export PATH=/usr/local/bin:$PATH
+
+
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
@@ -84,10 +99,9 @@ BCYN="\[\033[46m\]" # background cyan
 BWHT="\[\033[47m\]" # background white
 
 if [ "$color_prompt" = yes ]; then
-    #PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
     # For git syntax highlighting:
-    #PS1="${debian_chroot:+($debian_chroot)}$HC$FGRN\u $HC$FBLE\w $HC$FRED\$(parse_git_branch)$HC$FGRN\$ $RS"
-    PS1="${debian_chroot:+($debian_chroot)}$HC$FMAG\T $HC$FCYN[ $HC$FGRN\u$HC$FCYN: $HC$FBLE\W $HC$FCYN] $HC$FRED\$(parse_git_branch)$HC$FGRN\$ $RS"
+    PS1="${debian_chroot:+($debian_chroot)}$HC$FMAG\T $HC$FCYN[ $HC$FGRN\u$HC$FCYN: $HC$FBLE\w $HC$FCYN] $HC$FRED\$(parse_git_branch)$HC$FGRN\$ $RS"
+#    PS1="${debian_chroot:+($debian_chroot)}$HC$FCYN[ $HC$FGRN\u$HC$FCYN: $HC$FBLE\w $HC$FCYN] $HC$FRED\$(parse_git_branch)$HC$FGRN\$ $RS"
 #    PS1="${debian_chroot:+($debian_chroot)}$HC$FGRN\u $HC$FBLE\w $HC$FGRN\$ $RS"
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
@@ -124,4 +138,8 @@ export PIP_REQUIRE_VIRTUALENV=true
 
 gpip(){
        PIP_REQUIRE_VIRTUALENV="" pip "$@"
+}
+
+gpip3(){
+       PIP_REQUIRE_VIRTUALENV="" pip3 "$@"
 }
