@@ -14,8 +14,9 @@ alias l='ls -CF'
 
 # modified commands
 alias ..='cd ..'
-alias ins="ssh ins-sw-bld19"
-
+alias ins="ssh ins-sw-bld42"
+alias robc="ssh robc-jumpbox.cisco.com"
+alias mininet="ssh -Y mininet@mininet-vm"
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
