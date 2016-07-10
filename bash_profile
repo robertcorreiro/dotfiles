@@ -11,3 +11,4 @@ export ARCHFLAGS="-arch x86_64"
 
 # Load .bashrc if it exists
 test -f ~/.bashrc && source ~/.bashrc
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*

@@ -139,3 +139,5 @@ gpip(){
 gpip3(){
        PIP_REQUIRE_VIRTUALENV="" pip3 "$@"
 }
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
