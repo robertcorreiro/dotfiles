@@ -14,10 +14,12 @@ alias l='ls -CF'
 
 # modified commands
 alias ..='cd ..'
-alias ins="ssh ins-sw-bld42"
+alias ins="ssh ins-sw-bld11"
 alias robc="ssh robc-jumpbox.cisco.com"
 alias mininet="ssh -Y mininet@mininet-vm"
-alias logviewer="ssh techsupport@apic-logviewer"
+alias logviewer='ssh techsupport@apic-logviewer -t "bash --rcfile ~/.benjwils_bashrc -i"'
+alias n5k2="ssh admin@n5k2"
+alias n5k3="ssh admin@n5k3"
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

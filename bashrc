@@ -13,7 +13,7 @@ esac
 
 # virtualenvwrapper config
 export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/dev
+export PROJECT_HOME=$HOME/Projects
 source /usr/local/bin/virtualenvwrapper.sh
 
 # Ensure user-installed binaries take precedence
@@ -139,5 +139,3 @@ gpip(){
 gpip3(){
        PIP_REQUIRE_VIRTUALENV="" pip3 "$@"
 }
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
