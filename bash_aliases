@@ -18,8 +18,9 @@ alias ins="ssh ins-sw-bld01"
 alias robc="ssh robc-jumpbox.cisco.com"
 alias mininet="ssh -Y mininet@mininet-vm"
 alias lv='ssh techsupport@apic-logviewer'
-alias tsj='ssh techsupport@aci-jupyter'
-alias adminj='ssh admin@aci-jupyter'
+alias tsj='ssh techsupport@aci-jupyter.cisco.com'
+alias adminj='ssh admin@aci-jupyter.cisco.com'
+alias expj='ssh experimental@aci-jupyter.cisco.com'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
