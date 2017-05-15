@@ -8,7 +8,7 @@
 
 dir=~/dotfiles                 # dotfiles directory
 olddir=~/dotfiles_old          # dotfiles backup directory
-files="bashrc bash_aliases bash_profile vim vimrc gemrc "     # list of files/folders to symlink
+files="bashrc bash_aliases bash_profile vim vimrc gemrc gitconfig"     # list of files/folders to symlink
 
 ###############
 
