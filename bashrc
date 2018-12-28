@@ -12,12 +12,9 @@ esac
 # PATH Configuration
 
 # virtualenvwrapper config
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Projects
-source /usr/local/bin/virtualenvwrapper.sh
-
-# Ensure user-installed binaries take precedence
-export PATH=/usr/local/bin:$PATH:`yarn global bin`
+#export WORKON_HOME=$HOME/.virtualenvs
+#export PROJECT_HOME=$HOME/Projects
+# source /usr/local/bin/virtualenvwrapper.sh
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options

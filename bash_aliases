@@ -14,13 +14,6 @@ alias l='ls -CF'
 
 # modified commands
 alias ..='cd ..'
-alias ins="ssh ins-sw-bld01"
-alias robc="ssh robc-jumpbox.cisco.com"
-alias mininet="ssh -Y mininet@mininet-vm"
-alias lv='ssh -t techsupport@apic-logviewer "cd /techsupport/rcorrier ; /bin/bash --rcfile /techsupport/rcorreir/.rcforssh"'
-alias tsj='ssh techsupport@aci-jupyter.cisco.com'
-alias adminj='ssh admin@aci-jupyter.cisco.com'
-alias expj='ssh experimental@aci-jupyter.cisco.com'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
